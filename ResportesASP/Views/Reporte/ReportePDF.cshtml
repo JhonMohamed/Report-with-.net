@@ -1,0 +1,33 @@
+﻿@model List<ResportesASP.Models.Producto>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Reporte de Productos</title>
+    <style>
+        body { font-family: Arial, sans-serif; font-size: 12px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 1em; }
+        th, td { border: 1px solid #ccc; padding: 6px; text-align: left; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+    <h2>Reporte de Productos</h2>
+    <table>
+        <thead>
+            <tr><th>Nombre</th><th>Precio</th><th>Categoría</th></tr>
+        </thead>
+        <tbody>
+            @foreach (var p in Model)
+            {
+                <tr>
+                    <td>@p.Nombre</td>
+                    <td>@p.Precio.ToString("C")</td>
+                    <td>@p.Categoria</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

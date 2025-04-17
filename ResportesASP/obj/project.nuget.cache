@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WDPFPOIjLYI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\Downloads\\ResportesASP\\ResportesASP\\ResportesASP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\rotativa.aspnetcore\\1.4.0\\rotativa.aspnetcore.1.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
